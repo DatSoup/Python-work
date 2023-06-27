@@ -94,7 +94,7 @@ def classStatus (classes):
 
 #Main funcion used to call the dictionary from a txt file and output the data into a table    
 def main ():
-    classes = readClassInfo('Project.txt')
+    classes = readClassInfo('UpdatedProject.txt')
     updateGrade (classes, 'EE 201', 'A')
     addClass(classes, 'CSCI 161', 'A', '4')
     printClasses(classes)
